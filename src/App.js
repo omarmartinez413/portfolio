@@ -5,6 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+      <div>
       <div className="index is-preload">
 		<div id="page-wrapper">
 
@@ -244,6 +245,8 @@ class App extends Component {
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+    </div>
 </div>
     );
   }
