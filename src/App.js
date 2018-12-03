@@ -5,15 +5,15 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div class="index is-preload">
+      <div className="index is-preload">
 		<div id="page-wrapper">
 
 			{/*<!-- Header -->*/}
-				<header id="header" class="alt">
+				<header id="header" className="alt">
 					<h1 id="logo"><a href="index.html">Omar <span>Martinez</span></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href = "https://github.com/omarmartinez413" class="icon circle fa-github"><span class="label">Github</span></a></li>
+							<li><a href = "https://github.com/omarmartinez413" className="icon circle fa-github"><span className="label">Github</span></a></li>
 						</ul>
 					</nav>
 				</header>
@@ -27,7 +27,7 @@ class App extends Component {
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
           -->*/}
-					<div class="inner">
+					<div className="inner">
 
 						<header>
 							<h2>Welcome</h2>
@@ -38,9 +38,9 @@ class App extends Component {
 						<br />
 						</p>
 						<footer>
-							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-								<li><a href="contact.html" class="button fit scrolly">Contact me</a></li>
+							<ul className="buttons stacked">
+								<li><a href="#main" className="button fit scrolly">Tell Me More</a></li>
+								<li><a href="contact.html" className="button fit scrolly">Contact me</a></li>
 							</ul>
 						</footer>
 
@@ -51,8 +51,8 @@ class App extends Component {
 			{/*<!-- Main -->*/}
 				<article id="main">
 
-					<header class="special container">
-						<span class="icon fa-bar-chart-o"></span>
+					<header className="special container">
+						<span className="icon fa-bar-chart-o"></span>
 						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
 						<br />
 						I decided to give it a really creative name.</h2>
@@ -65,30 +65,30 @@ class App extends Component {
 					</header>
 
 					{/*<!-- One -->*/}
-						<section class="wrapper style2 container special-alt">
-							<div class="row gtr-50">
-								<div class="col-8 col-12-narrower">
+						<section className="wrapper style2 container special-alt">
+							<div className="row gtr-50">
+								<div className="col-8 col-12-narrower">
 
 									<header>
 										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
 									</header>
 									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
 									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
+										<ul className="buttons">
+											<li><a href="#" className="button">Find Out More</a></li>
 										</ul>
 									</footer>
 
 								</div>
-								<div class="col-4 col-12-narrower imp-narrower">
+								<div className="col-4 col-12-narrower imp-narrower">
 
-									<ul class="featured-icons">
-										<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
+									<ul className="featured-icons">
+										<li><span className="icon fa-clock-o"><span className="label">Feature 1</span></span></li>
+										<li><span className="icon fa-volume-up"><span className="label">Feature 2</span></span></li>
+										<li><span className="icon fa-laptop"><span className="label">Feature 3</span></span></li>
+										<li><span className="icon fa-inbox"><span className="label">Feature 4</span></span></li>
+										<li><span className="icon fa-lock"><span className="label">Feature 5</span></span></li>
+										<li><span className="icon fa-cog"><span className="label">Feature 6</span></span></li>
 									</ul>
 
 								</div>
@@ -96,12 +96,12 @@ class App extends Component {
 						</section>
 
 					{/*<!-- Two -->*/}
-						<section class="wrapper style1 container special">
-							<div class="row">
-								<div class="col-4 col-12-narrower">
+						<section className="wrapper style1 container special">
+							<div className="row">
+								<div className="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<span className="icon featured fa-check"></span>
 										<header>
 											<h3>This is Something</h3>
 										</header>
@@ -109,10 +109,10 @@ class App extends Component {
 									</section>
 
 								</div>
-								<div class="col-4 col-12-narrower">
+								<div className="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<span className="icon featured fa-check"></span>
 										<header>
 											<h3>Also Something</h3>
 										</header>
@@ -120,10 +120,10 @@ class App extends Component {
 									</section>
 
 								</div>
-								<div class="col-4 col-12-narrower">
+								<div className="col-4 col-12-narrower">
 
 									<section>
-										<span class="icon featured fa-check"></span>
+										<span className="icon featured fa-check"></span>
 										<header>
 											<h3>Probably Something</h3>
 										</header>
@@ -135,17 +135,17 @@ class App extends Component {
 						</section>
 
 					{/*<!-- Three -->*/}
-						<section class="wrapper style3 container special">
+						<section className="wrapper style3 container special">
 
-							<header class="major">
+							<header className="major">
 								<h2>Next look at this <strong>cool stuff</strong></h2>
 							</header>
 
-							<div class="row">
-								<div class="col-6 col-12-narrower">
+							<div className="row">
+								<div className="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<a href="#" className="image featured"><img src="images/pic01.jpg" alt="" /></a>
 										<header>
 											<h3>A Really Fast Train</h3>
 										</header>
@@ -153,10 +153,10 @@ class App extends Component {
 									</section>
 
 								</div>
-								<div class="col-6 col-12-narrower">
+								<div className="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>An Airport Terminal</h3>
 										</header>
@@ -165,11 +165,11 @@ class App extends Component {
 
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-6 col-12-narrower">
+							<div className="row">
+								<div className="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" className="image featured"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Hyperspace Travel</h3>
 										</header>
@@ -177,10 +177,10 @@ class App extends Component {
 									</section>
 
 								</div>
-								<div class="col-6 col-12-narrower">
+								<div className="col-6 col-12-narrower">
 
 									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="#" className="image featured"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>And Another Train</h3>
 										</header>
@@ -190,9 +190,9 @@ class App extends Component {
 								</div>
 							</div>
 
-							<footer class="major">
-								<ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
+							<footer className="major">
+								<ul className="buttons">
+									<li><a href="#" className="button">See More</a></li>
 								</ul>
 							</footer>
 
@@ -208,9 +208,9 @@ class App extends Component {
 						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
 					</header>
 					<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button primary">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
+						<ul className="buttons">
+							<li><a href="#" className="button primary">Take My Money</a></li>
+							<li><a href="#" className="button">LOL Wut</a></li>
 						</ul>
 					</footer>
 
@@ -219,15 +219,15 @@ class App extends Component {
 			{/*<!-- Footer -->*/}
 				<footer id="footer">
 
-					<ul class="icons">
-						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<ul className="icons">
+						<li><a href="#" className="icon circle fa-twitter"><span className="label">Twitter</span></a></li>
+						<li><a href="#" className="icon circle fa-facebook"><span className="label">Facebook</span></a></li>
+						<li><a href="#" className="icon circle fa-google-plus"><span className="label">Google+</span></a></li>
+						<li><a href="#" className="icon circle fa-github"><span className="label">Github</span></a></li>
+						<li><a href="#" className="icon circle fa-dribbble"><span className="label">Dribbble</span></a></li>
 					</ul>
 
-					<ul class="copyright">
+					<ul className="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
