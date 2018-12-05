@@ -52,7 +52,7 @@ class App extends Component {
 				<article id="main">
 
 					<header className="special container">
-						<span className="icon fa-bar-chart-o"></span>
+						<span className="icon fa-bar-chart-o">About me</span>
 						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
 						<br />
 						I decided to give it a really creative name.</h2>
