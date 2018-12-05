@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 
-
 class App extends Component {
 	render() {
 	  return (
 		<div>
-			<div className="index is-preload">
-		  	<div id="page-wrapper">
+		<div className="index is-preload">
+		  <div id="page-wrapper">
   
 			  {/*<!-- Header -->*/}
-				  <header id="header" className="alt">
+				  <div className = "sticky"><header id="header" className="alt">
 					  <h1 id="logo"><a href="index.js">Omar <span>Martinez</span></a></h1>
 					  <nav id="nav">
 						  <ul>
@@ -21,8 +20,7 @@ class App extends Component {
 			</div>
   
 			  {/*<!-- Banner -->*/}
-				  <div>
-					  <section id="banner">
+				  <section id="banner">
   
 					  {/*<!--
 						  ".inner" is set up as an inline-block so it automatically expands
@@ -46,10 +44,10 @@ class App extends Component {
 								  <li><a href="contact.html" className="button fit scrolly">Contact me</a></li>
 							  </ul>
 						  </footer>
-						  </div>
-						  </section>
-						  </div>
-						  
+  
+					  </div>
+  
+				  </section>
   
 			  {/*<!-- Main -->*/}
 				  <article id="main">
@@ -184,12 +182,12 @@ class App extends Component {
   
 					  <header>
 						  <h2>Ready to do <strong>something</strong>?</h2>
-						  <p>Let's Create your vision!</p>
+						  <p>Let's create your vision now!</p>
 					  </header>
 					  <footer>
 						  <ul className="buttons">
-							  <li><a href="#" className="button primary">Take My Money</a></li>
-							  <li><a href="#" className="button">LOL Wut</a></li>
+							  <li><a href="#" className="button primary">Contact me</a></li>
+							  <li><a href="#" className="button">Let me see more</a></li>
 						  </ul>
 					  </footer>
   
@@ -208,15 +206,11 @@ class App extends Component {
   
 				  </footer>
   
-		 
 		  </div>
 		  </div>
-		  )
+		  </div>
+	  )
 	}
   }
-ReactDOM.render(
-		  <App/>,
-		  document.getElementById("root")
-	  )
 
 export default App;
