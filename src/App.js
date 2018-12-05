@@ -70,7 +70,7 @@ class App extends Component {
 								<div className="col-8 col-12-narrower">
 
 									<header>
-										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+										<h2>Behold them <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
 									</header>
 									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
 									<footer>
