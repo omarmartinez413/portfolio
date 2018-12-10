@@ -85,7 +85,7 @@ class App extends Component {
 									  </section>
 					<footer className="major">
 								  <ul className="buttons">
-									  <li><a href="#" className="button">Check it out!</a></li>
+									  <li><a href="https://arpsgame.netlify.com/" className="button">Check it out!</a></li>
 								  </ul>
 							  </footer>
   
