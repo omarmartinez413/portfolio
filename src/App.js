@@ -76,7 +76,7 @@ class App extends Component {
 								  <div className="col-6 col-12-narrower">
   
 									  <section>
-										  <img src= ".src/images/pic01.jpg" alt="pic of app"/>
+										  <img src={"/pic01.jpg"} alt="pic of app"/>
 										  <header>
 											  <h3>Rock, Paper, Scissors App <a href = "#"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "30px" height = "30px"></img></a></h3>
 										  </header>
