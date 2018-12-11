@@ -77,9 +77,9 @@ class App extends Component {
 								  <div className="col-6 col-12-narrower">
   
 									  <section>
-									  <img style={{width: '50%', height: '50%'}} src = {pic01} alt="pic of app"/>
+									  <img style={{width: '70%', height: '70%'}} src = {pic01} alt="pic of app" target = '_blank'/>
 										  <header>
-											  <h3>Rock, Paper, Scissors App <a href = "#"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "30px" height = "30px"></img></a></h3>
+											  <h3>Rock, Paper, Scissors App <a href = "https://github.com/omarmartinez413/rock_paper_scissors_game"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "40px" height = "40px" target = '_blank'></img></a></h3>
 										  </header>
 										  <p>A simple Rock, Paper, Scissors game that uses JS DOM manipulati
 						on the html. </p>
