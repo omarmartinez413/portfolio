@@ -53,17 +53,19 @@ class App extends Component {
 			  {/*<!-- Main -->*/}
 				  <article id="main">
   
-					  <header className="special container">
+				  <header className="special container">
 						  <span className="icon fa-bar-chart-o">About me</span>
-						  <h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
+						  <h2>I'm a web developer from NYC that  <strong>Loves</strong> web development. 
 						  <br />
-						  I decided to give it a really creative name.</h2>
-						  <p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
+						  I like to work on both the <strong>Frontend</strong> and the backend side.</h2>
+						  <p>For the frontend it's  mostly HTML, CSS, and Javascript.
 						  <br />
-						  it's minimally designed, fully responsive, built on HTML5/CSS3,
-						  and, like all my stuff,
+						  For the backend side it's Node.Js.
 						  <br />
-						  released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+						  <p>Im extremely passionate about web developement and <br/>>creating all types of designs. Aside from web developement,
+  <br/>
+  I spend most of my time playing sports and hanging out with family.</p>
+						  </p>
 					  </header>
   
 					  {/*<!-- One -->*/}
