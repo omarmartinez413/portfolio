@@ -60,15 +60,15 @@ class App extends Component {
 							living in new york city, ny.</h2>
 						  <br />
 						  
-						  <p>I spend most of my time in frontend (HTML, CSS, and Javascript).
+						  <p>I spend most of my time in frontend (HTML, CSS, and Javascript),
 							<br />
 						   but I also enjoy working on the backend(Node.js)
 						  <br />
 						  <br/>
 						  <p>Im extremely passionate about web developement and <br/>
-						  creating all types of designs. Aside from web developement,
-  <br/>
-  I spend most of my time playing sports and hanging out with family.</p>
+						  creating all types of designs. Aside from web developement, 
+						  <br/>
+						  I spend most of my time playing sports and hanging out with family.</p>
 						  </p>
 					  </header>
   
@@ -76,7 +76,7 @@ class App extends Component {
 						  <section className="wrapper style3 container special">
   
 							  <header className="major">
-								  <h2>My <strong>Projects.</strong></h2>
+								  <h2>My <strong>Projects</strong></h2>
 							  </header>
   
 							  <div className="row">
@@ -84,11 +84,10 @@ class App extends Component {
   
 									  <section>
 									  <header>
-											  <h3>Rock, Paper, Scissors App <a href = "https://github.com/omarmartinez413/rock_paper_scissors_game" target = "_blank"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "40px" height = "40px" ></img></a></h3>
+											  <h3><strong>Rock, Paper, Scissors App</strong> <a href = "https://github.com/omarmartinez413/rock_paper_scissors_game" target = "_blank"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "40px" height = "40px" ></img></a></h3>
 										  </header>
 									  <img style={{width: '90%', height: '90%'}} src = {pic01} alt="pic of RPS app" />
-										<p>A simple Rock, Paper, Scissors game that uses JS DOM manipulati
-						on the html. </p>
+										<p>A simple Rock, Paper, Scissors game that uses JS DOM manipulation on the html. </p>
 									  </section>
 					<footer className="major">
 								  <ul className="buttons">
