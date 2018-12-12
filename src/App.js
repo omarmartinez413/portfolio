@@ -76,7 +76,7 @@ class App extends Component {
 						  <section className="wrapper style3 container special">
   
 							  <header className="major">
-								  <h2>Next look at this <strong>cool stuff</strong></h2>
+								  <h2>My <strong>Projects.</strong></h2>
 							  </header>
   
 							  <div className="row">
