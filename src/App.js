@@ -42,7 +42,7 @@ class App extends Component {
 						  <footer>
 							  <ul className="buttons stacked">
 								  <li><a href="#main" className="button fit scrolly">Tell Me More</a></li>
-								  <li><a href="contact.html" className="button fit scrolly">Contact me</a></li>
+								  <li><a href="contact.html" className="button primary">Contact me</a></li>
 							  </ul>
 						  </footer>
   
@@ -83,11 +83,11 @@ class App extends Component {
 								  <div className="col-6 col-12-narrower">
   
 									  <section>
-									  <img style={{width: '90%', height: '90%'}} src = {pic01} alt="pic of app" />
-										  <header>
+									  <header>
 											  <h3>Rock, Paper, Scissors App <a href = "https://github.com/omarmartinez413/rock_paper_scissors_game" target = "_blank"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "40px" height = "40px" ></img></a></h3>
 										  </header>
-										  <p>A simple Rock, Paper, Scissors game that uses JS DOM manipulati
+									  <img style={{width: '90%', height: '90%'}} src = {pic01} alt="pic of RPS app" />
+										<p>A simple Rock, Paper, Scissors game that uses JS DOM manipulati
 						on the html. </p>
 									  </section>
 					<footer className="major">
