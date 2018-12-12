@@ -55,12 +55,12 @@ class App extends Component {
   
 				  <header className="special container">
 						  <span className="icon fa-bar-chart-o">About me</span>
-						  <h2>I'm a web developer from NYC that  <strong>Loves</strong> web development. 
+						  <h2>I'm a <strong>fullstack web developer</strong>web developer living in new york city, ny.</h2>
 						  <br />
-						  I like to work on both the <strong>Frontend</strong> and the backend side.</h2>
-						  <p>For the frontend it's  mostly HTML, CSS, and Javascript.
-						  <br />
-						  For the backend side it's Node.Js.
+						  
+						  <p>I spend most of my time in frontend (HTML, CSS, and Javascript).
+							<br />
+						   but I also enjoy working on the backend(Node.js)
 						  <br />
 						  <p>Im extremely passionate about web developement and <br/>>creating all types of designs. Aside from web developement,
   <br/>
