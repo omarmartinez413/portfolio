@@ -64,6 +64,7 @@ class App extends Component {
 							<br />
 						   but I also enjoy working on the backend(Node.js)
 						  <br />
+						  <br/>
 						  <p>Im extremely passionate about web developement and <br/>
 						  creating all types of designs. Aside from web developement,
   <br/>
