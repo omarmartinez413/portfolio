@@ -60,12 +60,12 @@ class App extends Component {
 							living in new york city, ny.</h2>
 						  <br />
 						  
-						  <p>I spend most of my time in frontend (HTML, CSS, and Javascript),
+						  <p>I spend most of my time in frontend (HTML, CSS, and Javascript), 
 							<br />
 						   but I also enjoy working on the backend(Node.js)
 						  <br />
 						  <br/>
-						  <p>Im extremely passionate about web developement and <br/>
+						  <p>I'm extremely passionate about web developement and <br/>
 						  creating all types of designs. Aside from web developement, 
 						  <br/>
 						  I spend most of my time playing sports and hanging out with family.</p>
@@ -207,7 +207,7 @@ class App extends Component {
 					  </ul>
   
 					  <ul className="copyright">
-						  <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						  <li>&copy; OmarMartinez</li>
 					  </ul>
   
 				  </footer>
