@@ -55,7 +55,7 @@ class App extends Component {
   
 				  <header className="special container">
 						  <span className="icon fa-bar-chart-o">About me</span>
-						  <h2>I'm a <strong>fullstack web developer</strong>
+						  <h2>I'm a <strong>fullstack web developer </strong>
 						  <br/>
 							living in new york city, ny.</h2>
 						  <br />
@@ -99,7 +99,7 @@ class App extends Component {
 				  
 				  
 				  
-								  <div className="col-6 col-12-narrower">
+								{/*<div className="col-6 col-12-narrower">
   
 									  <section>
 										  <a href="#" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
@@ -114,7 +114,7 @@ class App extends Component {
 								  </ul>
 							  </footer>
   
-								  </div>
+		</div>*/}
 							  </div>
 							  {/*<div className="row">
 								  <div className="col-6 col-12-narrower">
@@ -162,17 +162,6 @@ class App extends Component {
 										  <span className="icon featured fa-check"></span>
 										  <header>
 											  <h3>Also Something</h3>
-										  </header>
-										  <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									  </section>
-  
-								  </div>
-								  <div className="col-4 col-12-narrower">
-  
-									  <section>
-										  <span className="icon featured fa-check"></span>
-										  <header>
-											  <h3>Probably Something</h3>
 										  </header>
 										  <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
 									  </section>
