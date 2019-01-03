@@ -212,4 +212,4 @@ class Header extends Component{
 
 
 
-export default Headers;
+export default Header;
