@@ -142,7 +142,7 @@ class App extends Component {
 							  </div>*/}
 						  </section>
   
-					  {/*<!-- Two -->*/}
+					  {/*<!-- Two -->
 						  <section className="wrapper style1 container special">
 							  <div className="row">
 								  <div className="col-4 col-12-narrower">
@@ -168,7 +168,7 @@ class App extends Component {
   
 								  </div>
 							  </div>
-						  </section>
+						  </section>*/}
   
 				  </article>
   
