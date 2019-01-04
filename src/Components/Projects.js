@@ -44,7 +44,7 @@ class Projects extends Component{
                   />
                   <p>
                     A simple Rock, Paper, Scissors game that uses JS DOM
-                    manipulation on the html.{" "}
+                    manipulation on the html.
                   </p>
                 </section>
                 <footer className="major">
