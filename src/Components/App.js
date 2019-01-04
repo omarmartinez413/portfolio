@@ -5,8 +5,10 @@ import Banner from './Banner';
 class App extends Component {
 	render() {
 	  return (
-		<Header/>,
-		<Banner/>
+			<div>
+				<Header/>
+				<Banner/>
+			</div>
 		)
   }
 }
