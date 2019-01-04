@@ -11,7 +11,8 @@ class Header extends Component{
         <div className="sticky">
           <header id="header" className="alt">
             <h1 id="logo">
-              <a href="index.js">Omar <span>Martinez</span>
+              <a style={{ backgroundColor: 'white'}}
+              href="index.js">Omar <span>Martinez</span>
               </a>
             </h1>
             <nav id="nav">
@@ -19,7 +20,7 @@ class Header extends Component{
                 <li id="githublogo">
                   <a href="#">
                     <img
-                      style={{ backgroundColor: 'white'}}
+                      
                       src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                       alt="git hub logo"
                       width="30px"
