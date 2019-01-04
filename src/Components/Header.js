@@ -19,7 +19,7 @@ class Header extends Component{
                 <li id="githublogo">
                   <a href="#">
                     <img
-                      style={{ backgroundColor: 'gray'}}
+                      style={{ backgroundColor: 'white'}}
                       src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                       alt="git hub logo"
                       width="30px"
