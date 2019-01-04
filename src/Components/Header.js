@@ -11,16 +11,15 @@ class Header extends Component{
         <div className="sticky">
           <header id="header" className="alt">
             <h1 id="logo">
-              <a style={{ backgroundColor: 'white'}}
-              href="index.js">Omar <span>Martinez</span>
+              <a href="index.js">Omar <span>Martinez</span>
               </a>
             </h1>
             <nav id="nav">
               <ul>
                 <li id="githublogo">
-                  <a href="#">
-                    <img
-                      
+                  <a style={{ backgroundColor: 'white'}}
+                  href="#">
+                  <img
                       src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                       alt="git hub logo"
                       width="30px"
