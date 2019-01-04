@@ -3,7 +3,7 @@ import pic01 from '../images/pic01.jpg';
 import '../App.css';
 
 
-class Banner extends Component{
+class Header extends Component{
     render(){
     return (
         <div>Test</div>
