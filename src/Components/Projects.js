@@ -3,77 +3,14 @@ import pic01 from '../images/pic01.jpg';
 import '../App.css';
 
 
-class Banner extends Component{
+class Projects extends Component{
     render(){
     return (
-            <div>
-            <div className="index is-preload">
-              <div id="page-wrapper">
-      
-                  {/*<!-- Header -->*/}
-                      <div className = "sticky"><header id="header" className="alt">
-                          <h1 id="logo"><a href="index.js">Omar <span>Martinez</span></a></h1>
-                          <nav id="nav">
-                              <ul>
-                                  <li id = "githublogo"><a href = "#"><img src =" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt = "git hub logo" width = "30px" height = "30px"></img></a></li>
-                              </ul>
-                          </nav>
-                      </header>
-                </div>
-      
-                  {/*<!-- Banner -->*/}
-                      <section id="banner">
-      
-                          {/*<!--
-                              ".inner" is set up as an inline-block so it automatically expands
-                              in both directions to fit whatever's inside it. This means it won't
-                              automatically wrap lines, so be sure to use line breaks where
-                              appropriate (<br />).
-                -->*/}
-                          <div className="inner">
-      
-                              <header>
-                                  <h2>Welcome</h2>
-                              </header>
-                              <p>My name is  <strong>Omar Martinez </strong>  
-                              <br />
-                              and I'm a web developer.
-                              <br />
-                              </p>
-                              <footer>
-                                  <ul className="buttons stacked">
-                                      <li><a href="#main" className="button fit scrolly">Tell Me More</a></li>
-                                      <li><a href="contact.html" className="button primary">Contact me</a></li>
-                                  </ul>
-                              </footer>
-      
-                          </div>
-      
-                      </section>
-      
-                  {/*<!-- Main -->*/}
-                      <article id="main">
-      
-                      <header className="special container">
-                              <span className="icon fa-bar-chart-o">About me</span>
-                              <h2>I'm a <strong>fullstack web developer </strong>
-                              <br/>
-                                living in new york city, ny.</h2>
-                              <br />
-                              
-                              <p>I spend most of my time in frontend (HTML, CSS, and Javascript), 
-                                <br />
-                               but I also enjoy working on the backend(Node.js)
-                              <br />
-                              <br/>
-                              <p>I'm extremely passionate about web developement and <br/>
-                              creating all types of designs. Aside from web developement, 
-                              <br/>
-                              I spend most of my time playing sports and hanging out with family.</p>
-                              </p>
-                          </header>
-      
-                          {/*<!-- One -->*/}
+    <div>
+    {/*<!-- Projects -->*/}
+                          {/*<!-- Row One -->*/}
+                          {/*<!-- Project One -->*/}
+
                               <section className="wrapper style3 container special">
       
                                   <header className="major">
@@ -101,6 +38,7 @@ class Banner extends Component{
                       
                       
                                     {/*<div className="col-6 col-12-narrower">
+                                    <----Project Two---->
       
                                           <section>
                                               <a href="#" className="image featured"><img src="images/pic02.jpg" alt="" /></a>
@@ -143,7 +81,7 @@ class Banner extends Component{
                                   </div>*/}
                               </section>
       
-                          {/*<!-- Two -->
+                          {/*<!-- Row Two -->
                               <section className="wrapper style1 container special">
                                   <div className="row">
                                       <div className="col-4 col-12-narrower">
@@ -171,8 +109,7 @@ class Banner extends Component{
                                   </div>
                               </section>*/}
       
-                      </article>
-      
+                           
                   {/*<!-- CTA -->*/}
                       <section id="cta">
       
@@ -203,11 +140,10 @@ class Banner extends Component{
                       </footer>
       
               </div>
-              </div>
-              </div>
+              
           )
         }
     }
 
 
-export default Banner;
+export default Projects;
