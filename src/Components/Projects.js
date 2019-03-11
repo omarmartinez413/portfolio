@@ -26,7 +26,7 @@ class Projects extends Component{
                       <strong>Rock, Paper, Scissors App</strong>{" "}
                       <a
                         href="https://github.com/omarmartinez413/rock_paper_scissors_game"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         <img
                           src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
@@ -53,7 +53,7 @@ class Projects extends Component{
                       <a
                         href="https://arpsgame.netlify.com/"
                         className="button"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                       >
                         Check it out!
                       </a>

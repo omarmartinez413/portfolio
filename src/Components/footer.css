@@ -1,0 +1,38 @@
+#formStyle{
+	background-color:rgb(255, 255, 255,0.9);
+	color:black;
+    padding:1em 2em 1em 2em;
+    margin: 1em 15em 1em 15em;
+	font-weight: bold;
+	border:5em;
+}
+input[type=text]{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+  input[type=email]{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+  textarea{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    #formStyle{
+        background-color:rgb(255, 255, 255,0.9);
+        color:black;
+        padding:1em 2em 1em 2em;
+        margin: 1em 1em 1em 1em;
+        font-weight: bold;
+        border:5em;
+    }
+  }

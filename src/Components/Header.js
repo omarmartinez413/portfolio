@@ -18,7 +18,8 @@ class Header extends Component{
               <ul>
                 <li id="githublogo">
                   <a style={{ backgroundColor: 'white'}}
-                  href="#">
+                  href="https://github.com/omarmartinez413"
+                  target="_blank" rel="noopener noreferrer">
                   <img
                       src=" https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                       alt="git hub logo"
@@ -50,7 +51,7 @@ class Header extends Component{
                   </a>
                 </li>
                 <li>
-                  <a href="contact.html" className="button primary">
+                  <a href="#cta" className="button primary">
                     Contact me
                   </a>
                 </li>
