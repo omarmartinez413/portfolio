@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+
 import Header from './Header';
 import MainBio from './MainBio';
 import Projects from './Projects';
 import Footer from './Footer';
 
-class App extends Component {
+class AppPage extends Component {
 	render() {
 	  return (
 			<div>
@@ -17,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppPage;

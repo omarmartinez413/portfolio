@@ -15,9 +15,8 @@ class Footer extends Component{
                           </header>
                           <footer>
                           <form id='formStyle'
-                          method='post'
-                          name="portfolioContact" >
-          <input type="hidden" name="form-name" value="contact" />
+                          name="portfolioContact" method="post">
+          <input type="hidden" name="form-name" value="portfolioContact" />
           <p >
             <label>Your Name: <input type="text" name="name"/></label>
           </p>
