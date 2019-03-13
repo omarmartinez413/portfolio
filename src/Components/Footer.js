@@ -14,7 +14,7 @@ class Footer extends Component{
                               <p>Let's create your vision now!</p>
                           </header>
                           <footer>
-                          <form id='formStyle'
+                          <form className='formStyle'
                           name="portfolioContact" method="post">
           <input type="hidden" name="form-name" value="portfolioContact" />
           <p >
@@ -27,7 +27,7 @@ class Footer extends Component{
             <label>Message: <textarea name="message" ></textarea></label>
           </p>
           <p>
-            <button type="submit">Send</button>
+            <button className="button primary" type="submit">Send</button>
           </p>
         </form>
                           </footer>
