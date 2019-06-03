@@ -1,0 +1,54 @@
+.formStyle{
+	background-color:rgb(255, 255, 255,0.9);
+	color:black;
+  padding:1em 2em 1em 2em;
+  margin: 1em 12em 1em 12em;
+	font-weight: bold;
+  border:5em;
+  border-radius: 30px;
+  
+}
+input[type=text]{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+  input[type=email]{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+  textarea{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 8px;
+  }
+  .form--button{
+    padding:1em 2em 1em 1em;
+    margin:1em 1em 1em 1em;
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .formStyle{
+        background-color:rgb(255, 255, 255,0.9);
+        color:black;
+        padding:1em 2em 1em 2em;
+        margin: 1em 1em 1em 1em;
+        font-weight: bold;
+        border:5em;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+  .button.primary.form--button{
+  min-width: .5em;
+  max-width: 10em;
+  padding:1em 2em 1em 2em;
+        margin: 1em 1em 1em 1em;
+  }
+}
