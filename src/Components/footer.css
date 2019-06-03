@@ -26,13 +26,9 @@ input[type=text]{
     border: 2px solid rgb(87, 87, 87);
     border-radius: 8px;
   }
-  .form--button{
-    padding:1em 2em 1em 1em;
-    margin:1em 1em 1em 1em;
-  }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .formStyle{
         background-color:rgb(255, 255, 255,0.9);
         color:black;
