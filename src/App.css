@@ -2121,11 +2121,7 @@ input, select, textarea {
 		button.small,
 		.button.small {
 			font-size: 0.7em;
-<<<<<<< HEAD
 			min-width: 8em;
-=======
-			min-width: 14em;
->>>>>>> e0b1b75d2a5112cdf320f748fb2f8c9a0bbcdbf1
 			padding: 0.5em 0;
 		}
 
